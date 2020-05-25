@@ -1,5 +1,4 @@
 class StudentsController < ApplicationController
-  get '/students' do 
-    erb:'index'
-  end 
+  def index 
+    @student = Student.all
 end 
