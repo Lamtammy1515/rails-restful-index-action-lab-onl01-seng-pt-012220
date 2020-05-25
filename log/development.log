@@ -474,3 +474,9 @@ app/controllers/students_controller.rb:1:in `<top (required)>'
   Rendering /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
   Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (47.2ms)
+Started GET "/students" for 70.123.204.236 at 2020-05-25 13:03:01 +0000
+  
+ActionController::RoutingError (undefined local variable or method `index' for StudentsController:Class):
+  
+app/controllers/students_controller.rb:3:in `<class:StudentsController>'
+app/controllers/students_controller.rb:1:in `<top (required)>'
